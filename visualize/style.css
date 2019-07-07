@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.logo {
+    line-height: 100px;
+}
+
+#side-bar {
+    margin-right: 20px;
+    width: 300px;
+    height: 100vh;
+    float: left;
+    border-right: solid 1px lightgray;
+}
+
+#top {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#camera {
+    height: 200px;
+}
+
+#face-img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('file:///Users/hassaku/Documents/hobby/exawizards-event/visualize/anonymous.png');
+}
+
+#employee-id {
+    padding: 20px;
+}

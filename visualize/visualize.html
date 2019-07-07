@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>visualize</title>
+    <script src="d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+    <script src="https://d3js.org/d3-quadtree.v1.min.js"></script>
+    <script src="https://d3js.org/d3-timer.v1.min.js"></script>
+    <script src="https://d3js.org/d3-force.v2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="side-bar">
+        <h2 class="has-text-centered is-size-3 logo">管理システム</h2>
+        <p class="has-text-centered is-size-4"><a href="index.html">勤怠管理</a></p>
+        <p class="has-text-centered is-size-4"><a href="visualize.html">社内コミュニティ</a></p>
+    </div>
+    <div id="face-img"></div>
+    <h1 id="employee-id" class="is-size-3">Choose Employee</h1>
+    <div id="svg"></div>
+</body>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</html>
